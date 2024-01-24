@@ -117,7 +117,18 @@
   width: 35px;
 }
 .wd-sub-menu {
-  padding-left: 0;
+  padding-left: 0 !important;
+}
+.wd-sub-menu li .sub-sub-menu {
+  padding-left: 0 !important;
+}
+.wd-nav-main:not(.wd-offsets-calculated) > li:not(.menu-simple-dropdown) {
+  overflow: visible !important;
+}
+
+.wd-nav-main:not(.wd-offsets-calculated) .wd-dropdown:not(.wd-design-default) {
+  opacity: 1 !important;
+  pointer-events: visible !important;
 }
 
 /* changes by Tom  */
